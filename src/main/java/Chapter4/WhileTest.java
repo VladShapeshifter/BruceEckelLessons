@@ -3,7 +3,7 @@ package Chapter4;
 public class WhileTest {
     static boolean condition() {
         boolean result = Math.random() < 0.99;
-        System.out.println(result + ", ");
+        System.out.print(result + ", ");
         return result;
     }
 
